@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+h3 {
+    color:rgb(197, 151, 240);
+    background-color: rgba(68, 26, 80, 0.716);
+    text-align: center;
+}
+h1 {
+    color:rgb(49, 32, 65);
+    text-align: center;
+    font-size: 40px;
+}
+h2 {
+    color:rgb(49, 32, 65);
+    text-align: center;
+    font-size: 25px;
+}
+body{
+    background-color: rgba(136, 127, 138, 0.133);
+}
+.header-menu{
+    background-color: rgba(104, 85, 122, 0.378);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 10px;
+}
+.header-menu nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+.lista-menu li>a{
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.principal{
+    display: flex;
+    background-color: rgba(201, 170, 229, 0.293);
+    height: 100vh;
+}
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.div-img{
+    position: center;
+    top: 20%;
+    left: 70%;
+    margin-right: 350px;
+    margin-left: 350px;
+    
+}
+
+
+.lista-item{
+    padding: 50px;
+}
+
+.lista-item ul li{
+    margin-bottom: 10px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.principal-3{
+    display: flex;
+    background-color: rgba(201, 170, 229, 0.293);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.subcontainer-principal3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.subcontainer-principal3 li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgba(201, 170, 229, 0.659);
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+
+.Contato{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+.lista-footer{
+    color: rgb(71, 4, 71);
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.estilo-icon{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.links{
+    color: rgb(64, 4, 68);
+    text-decoration: none;
+}
